@@ -156,7 +156,7 @@ Google Ads CPC.
 
 Use CPC as a signal that advertisers may see economic value in the query.
 
-Do not treat CPC as proof of willingness to pay for this specific SaaS.
+Assess demand for this specific SaaS using product-relevant software, tool, alternative and comparison searches.
 
 ### Ads Competition
 
@@ -405,9 +405,7 @@ Evaluate the commercial signal using:
 
 Determine whether the search behavior suggests meaningful economic demand.
 
-Remember:
-
-CPC and advertiser activity are signals, not proof of SaaS willingness to pay.
+Combine CPC and advertiser activity with the relevance and buying intent of the keywords.
 
 ---
 

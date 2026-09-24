@@ -1,42 +1,30 @@
 # Build What Sells
 
-**How I validate small SaaS ideas before I spend weeks building them.**
+**Three free, ready-to-use AI prompts for solo founders and vibe coders: find SaaS ideas with real demand, check their Google traffic potential, and generate UGC videos for TikTok or Instagram.**
 
-This is for founders and vibe coders who can ship software, but don't already have a big audience and don't want their go-to-market plan to be "spam Reddit until somebody clicks."
+## Copy-paste prompts
 
-I’m a software engineer. Building is usually the easy part.
+Pick the one that solves your current problem:
 
-The harder questions are:
+| Your situation | Grab this prompt | What you get |
+|---|---|---|
+| **“I don't know what to build.”** | [Find SaaS ideas with real demand →](prompts/opportunity-mining.md) | A ranked shortlist of opportunities backed by recurring problems, existing spending and gaps in current tools, with the top five selected for deeper validation. |
+| **“I have an idea. Can Google bring me customers?”** | [Validate organic traffic potential →](prompts/seo-demand-validation.md) | Keyword data, buying intent, competitor results and realistic ranking opportunities, ending in a recommendation on whether SEO is a viable acquisition channel. |
+| **“I need videos to market my product.”** | [Create UGC with fal.ai →](prompts/ugc-video-production.md) | Your own UGC-style videos for TikTok or Instagram, with the agent handling creator references, shots, speech, captions and editing through fal.ai. |
 
-- Does anyone actually have this problem?
-- Do they care enough to pay?
-- How are they solving it today?
-- Can I reach them without turning into a full-time salesperson?
+### What you need
 
-This repo is the process I use to answer those questions first.
+- **Idea discovery:** a research agent with web access. Adjust the builder profile and excluded ideas in the prompt to your situation.
+- **SEO validation:** an agent connected to DataForSEO. Fill in your idea, target market and language.
+- **UGC production:** an agent with the fal.ai plugin or API access. Fill in your product, audience and creative brief.
 
-> It will not prove product-market fit. Only real users, payments and retention can do that.
->
-> It *can* stop you from spending three weeks on an idea that had obvious problems on day one.
+Open a prompt, copy its text block into your agent, and run it. You can use each one independently.
 
----
-
-## The whole thing in 30 seconds
-
-1. **Find pain, not ideas.** Look for work people already do manually, repeatedly or expensively.
-2. **Deep-research the survivors.** Try to disprove each promising idea before you build it.
-3. **Check distribution early.** If Google is supposed to bring customers, validate Google demand before launch.
-4. **Look at intent, not just volume.** Ten good searches can matter more than 10,000 irrelevant ones.
-5. **Build the smallest useful version.**
-6. **Then market it.** For social creatives, you can get surprisingly far with generative media APIs instead of another monthly UGC subscription.
-
-That's basically it.
-
-The rest of this README explains how I do each step.
+The guide below explains how I use the results to choose an idea, assess distribution and decide what to build.
 
 ---
 
-## Contents
+## The guide
 
 - [1. Stop asking AI for SaaS ideas](#1-stop-asking-ai-for-saas-ideas)
 - [2. Research anything that survives](#2-research-anything-that-survives)
@@ -46,7 +34,6 @@ The rest of this README explains how I do each step.
 - [6. Build smaller than you want to](#6-build-smaller-than-you-want-to)
 - [7. Cheap UGC experiments with fal.ai](#7-cheap-ugc-experiments-with-falai)
 - [8. My pre-build checklist](#8-my-pre-build-checklist)
-- [Copy-paste prompts](#copy-paste-prompts)
 
 ---
 
@@ -145,20 +132,6 @@ Research is cheap now. Use that.
 
 You can investigate 20 candidates without maintaining 20 codebases.
 
-### One important distinction
-
-A deep research report can give you **evidence**.
-
-It cannot give you product-market fit.
-
-If the report says "BUILD", I read that as:
-
-> worth testing with a real product
-
-not:
-
-> customers are guaranteed
-
 ---
 
 ## 3. If SEO is the plan, validate SEO first
@@ -232,8 +205,6 @@ Sometimes nobody competes because nobody cares.
 ### CPC
 
 CPC is useful because advertisers paying for a query is a decent commercial signal.
-
-It is not proof that somebody will buy *your* SaaS.
 
 It also tells you something else: paid acquisition may get expensive.
 
@@ -408,13 +379,11 @@ If the product makes it this far, you still need people to see it.
 
 For TikTok or Instagram experiments, I would not immediately buy an expensive UGC SaaS subscription.
 
-You can use **fal.ai** directly through an API or an agent integration.
+You can use **fal.ai** through its agent plugin or API.
 
 fal has many current image and video models. Different models are priced differently, commonly per generated video or per second of output.
 
 For testing, I would start with a small balance such as **$10–20**, see what actually works, and only spend more after that.
-
-That is a testing budget, not a promise that $20 buys a finished campaign.
 
 ### Don't ask one model to do everything
 
@@ -494,40 +463,6 @@ Before I give an idea real development time:
 If I cannot answer those, I research more.
 
 That is usually cheaper than another rewrite.
-
----
-
-## Copy-paste prompts
-
-| Prompt | Use it for |
-|---|---|
-| [Opportunity Mining for Solo SaaS](prompts/opportunity-mining.md) | Find repeated pain and ugly workflows before inventing products |
-| [SEO Demand Validation with DataForSEO](prompts/seo-demand-validation.md) | Check search demand, longtails, intent, KD, CPC and realistic SEO entry points |
-| [Realistic UGC Production with fal.ai](prompts/ugc-video-production.md) | Let an agent plan and iterate a believable TikTok/Reels creative |
-
----
-
-## A few things I don't count as validation
-
-> "ChatGPT thinks this is a strong market."
-
-No.
-
-> "I found one Reddit post."
-
-Interesting. Keep looking.
-
-> "The keyword has KD 3."
-
-Could still be useless.
-
-> "There are no competitors."
-
-Could be great. Could also mean nobody pays for this.
-
-> "There are already competitors."
-
-Good. Now figure out why somebody would buy yours.
 
 ---
 

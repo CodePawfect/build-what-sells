@@ -21,11 +21,10 @@ The rewrite uses:
 - fewer decorative headings
 - normal transitions
 - occasional longer sentences
-- caveats where they actually matter
 
 ### 2. The useful thing appears early
 
-The opening explains who the repo is for and gives the complete workflow in roughly 30 seconds.
+The opening names the three ready-to-use prompts and their audience. Each prompt is linked immediately, alongside the reader's problem and the result they can work toward: a shortlist of SaaS opportunities, an organic-traffic assessment or UGC videos. Tool requirements follow, then the longer guide.
 
 Nielsen Norman Group repeatedly finds that web users scan rather than read linearly and recommends concise copy, meaningful headings, bullets, one idea per paragraph and an inverted-pyramid structure.
 
