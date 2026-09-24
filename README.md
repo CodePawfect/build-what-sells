@@ -1,5 +1,3 @@
-# Build What Sells
-
 ![Build What Sells — AI prompts for SaaS ideas, search traffic and UGC videos.](assets/banner.png)
 
 [![Prompts: 3 ready to use](assets/badges/prompts.svg)](#copy-paste-prompts) [![For: solo founders](assets/badges/founders.svg)](#copy-paste-prompts) [![Works with: AI agents](assets/badges/agents.svg)](#what-you-need) [![SEO: DataForSEO](assets/badges/seo.svg)](prompts/seo-demand-validation.md) [![UGC: fal.ai](assets/badges/ugc.svg)](prompts/ugc-video-production.md)
