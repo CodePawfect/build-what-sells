@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="85" height="24" viewBox="0 0 85 24" role="img" aria-label="UGC: fal.ai">
+  <title>UGC: fal.ai</title>
+  <defs><clipPath id="rounded"><rect width="85" height="24" rx="5"/></clipPath></defs>
+  <g clip-path="url(#rounded)">
+    <rect width="40" height="24" fill="#293134"/>
+    <rect x="40" width="45" height="24" fill="#abe4b7"/>
+  </g>
+  <g text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="600">
+    <text x="20" y="16" fill="#ffffff">UGC</text>
+    <text x="62.5" y="16" fill="#17291d">fal.ai</text>
+  </g>
+</svg>

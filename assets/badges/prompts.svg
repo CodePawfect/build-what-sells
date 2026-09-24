@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="153" height="24" viewBox="0 0 153 24" role="img" aria-label="prompts: 3 ready to use">
+  <title>prompts: 3 ready to use</title>
+  <defs><clipPath id="rounded"><rect width="153" height="24" rx="5"/></clipPath></defs>
+  <g clip-path="url(#rounded)">
+    <rect width="59" height="24" fill="#293134"/>
+    <rect x="59" width="94" height="24" fill="#abe4b7"/>
+  </g>
+  <g text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="11" font-weight="600">
+    <text x="29.5" y="16" fill="#ffffff">prompts</text>
+    <text x="106" y="16" fill="#17291d">3 ready to use</text>
+  </g>
+</svg>

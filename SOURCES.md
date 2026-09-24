@@ -57,13 +57,11 @@ This also resembles high-star reference repositories that use the README as a ma
 - https://github.com/donnemartin/system-design-primer
 - https://github.com/sindresorhus/awesome
 
-### 5. No badge wall
+### 5. A visual introduction with useful badges
 
-Badges are useful when they communicate real project status.
+The cover gives the project a visual identity and introduces its three uses: ideas, search traffic and UGC. Five linked badges surface the prompt count, audience and tools, with direct routes into the relevant sections.
 
-For a knowledge repo, a large badge row mostly adds visual noise.
-
-The rewrite starts with the value proposition instead.
+The banner and badges are stored in the repository. The concrete value proposition and prompt links follow immediately below them.
 
 ### 6. Active, direct sentences
 
